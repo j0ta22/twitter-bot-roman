@@ -3,15 +3,15 @@ import csv
 import time
 from datetime import datetime
 
-api_key = 'cYxnTUtY7jc7jvBKKMJ0urpJG'
-api_secret = 'x2dTIvaH7rPdjFv9DNhgETmbtq8VMqmJLbnQhjkJ37i2STSram'
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAGxCZAEAAAAAP4ycP%2BCNA5SSRkztaCNH7mQRQVQ%3DM7mOCjj3jf0cT6ubFYxErCpFaljtbXHhOxbgVHNundMyl1lORv'
-acces_token = '1491564956646612993-4LVd9NBDc4aKZ3GjaqN5HZwgpjxEQj'
-acces_token_secret = 'h5nmk2BWCbIqxztubU4o2yKCPKlHEpqS5eEiGJdY4IRDS'
+api_key = 'xxxxxxxxxxxxxx'
+api_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+bearer_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+acces_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+acces_token_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 # Nos autenticamos en Twitter
 
-auth = tweepy.OAuthHandler("cYxnTUtY7jc7jvBKKMJ0urpJG", "x2dTIvaH7rPdjFv9DNhgETmbtq8VMqmJLbnQhjkJ37i2STSram")
-auth.set_access_token("1491564956646612993-4LVd9NBDc4aKZ3GjaqN5HZwgpjxEQj", "h5nmk2BWCbIqxztubU4o2yKCPKlHEpqS5eEiGJdY4IRDS")
+auth = tweepy.OAuthHandler("xxxxxxxxxxxxxxxxxxxxxx", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+auth.set_access_token("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
 # Creamos un objeto de la librería
 
